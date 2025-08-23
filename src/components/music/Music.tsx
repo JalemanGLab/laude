@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, Pause, Volume2, VolumeX, Minimize2, Music2 } from 'lucide-react';
 import { useMusic } from "./useMusic";
+import audioFile from '@/assets/mp3/audio.mp3';
 
 export const Music = () => {
     const {
@@ -20,7 +21,7 @@ export const Music = () => {
     return (
         <>
             {/* Audio Element */}
-            <audio ref={audioRef} src="/src/assets/mp3/audio.mp3" preload="metadata" />
+            <audio ref={audioRef} src={audioFile} preload="metadata" />
             
             {/* Floating Music Player */}
             <AnimatePresence>
