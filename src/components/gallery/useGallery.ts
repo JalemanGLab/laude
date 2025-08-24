@@ -27,7 +27,7 @@ export const useGallery = () => {
 
     // Array de imágenes con las 13 imágenes de la carpeta images
     const images: GalleryImage[] = [
-        { id: 1, url: img01, description: 'Cuando te conocí' },
+        { id: 1, url: img01, description: 'Cuando te conocí Laura' },
         { id: 2, url: img02, description: 'Haciendo compras en el mercado' },
         { id: 3, url: img03, description: 'Viendo el cultivo de la hongos' },
         { id: 4, url: img04, description: 'Poniendo luces de navidad' },
